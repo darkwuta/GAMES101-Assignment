@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RayTracing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RayTracing">
+				<Option output="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/RayTracing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 RayTracing"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RayTracing/fast">
+				<Option output="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/RayTracing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 RayTracing/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Light.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Object.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Renderer.cpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Renderer.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Scene.cpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Scene.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Sphere.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Triangle.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Vector.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/global.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/main.cpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
