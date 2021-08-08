@@ -16,6 +16,18 @@ Vector.hpp
 global.hpp
 /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/global.hpp
 
+/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Renderer.cpp
+fstream
+-
+Vector.hpp
+/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Vector.hpp
+Renderer.hpp
+/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Renderer.hpp
+Scene.hpp
+/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Scene.hpp
+optional
+-
+
 /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Renderer.hpp
 Scene.hpp
 /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Scene.hpp
@@ -32,18 +44,6 @@ Object.hpp
 Light.hpp
 /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Light.hpp
 
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Sphere.hpp
-Object.hpp
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Object.hpp
-Vector.hpp
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Vector.hpp
-
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Triangle.hpp
-Object.hpp
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Object.hpp
-cstring
--
-
 /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Vector.hpp
 cmath
 -
@@ -57,16 +57,4 @@ iostream
 -
 random
 -
-
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/main.cpp
-Scene.hpp
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Scene.hpp
-Sphere.hpp
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Sphere.hpp
-Triangle.hpp
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Triangle.hpp
-Light.hpp
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Light.hpp
-Renderer.hpp
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework5/Assignment5/Renderer.hpp
 

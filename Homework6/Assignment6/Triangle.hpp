@@ -210,9 +210,9 @@ inline Bounds3 Triangle::getBounds() { return Union(Bounds3(v0, v1), v2); }
 
 inline Intersection Triangle::getIntersection(Ray ray)
 {
-    Intersection inter;
+    Intersection inter;//默认没有相交
 
-    if (dotProduct(ray.direction, normal) > 0)
+    if (dotProduct(ray.direction, normal) > 0)//点乘大于0方向基本相同，小于0方向相反，小于0才会相交
         return inter;
     double u, v, t_tmp = 0;
     Vector3f pvec = crossProduct(ray.direction, e2);
@@ -229,12 +229,15 @@ inline Intersection Triangle::getIntersection(Ray ray)
     v = dotProduct(ray.direction, qvec) * det_inv;
     if (v < 0 || u + v > 1)
         return inter;
-    t_tmp = dotProduct(e2, qvec) * det_inv;
+    t_tmp = dotProduct(e2, qvec) * det_inv;//t_tmp是交点时的t
 
     // TODO find ray triangle intersection
-
-
-
+    inter.happened = true;
+    inter.normal = normal;
+    inter.coords = ray(t_tmp);
+    inter.distance = t_tmp;
+    inter.m = m;
+    inter.obj = this;
 
     return inter;
 }

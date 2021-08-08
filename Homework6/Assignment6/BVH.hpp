@@ -5,6 +5,7 @@
 #ifndef RAYTRACING_BVH_H
 #define RAYTRACING_BVH_H
 
+#include "iostream"
 #include <atomic>
 #include <vector>
 #include <memory>
@@ -39,6 +40,7 @@ public:
 
     // BVHAccel Private Methods
     BVHBuildNode* recursiveBuild(std::vector<Object*>objects);
+    BVHBuildNode* SAHrecursiveBuild(std::vector<Object*>objects);
 
     // BVHAccel Private Data
     const int maxPrimsInNode;
