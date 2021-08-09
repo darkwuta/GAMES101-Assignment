@@ -34,9 +34,9 @@ Eigen::Matrix4f get_model_matrix(float angle)
                 0, 0, 0, 1;
 
     Eigen::Matrix4f scale;
-    scale << 2.5, 0, 0, 0,
-              0, 2.5, 0, 0,
-              0, 0, 2.5, 0,
+    scale << 1, 0, 0, 0,
+              0, 1, 0, 0,
+              0, 0, 1, 0,
               0, 0, 0, 1;
 
     Eigen::Matrix4f translate;
@@ -347,12 +347,12 @@ int main(int argc, const char** argv)
     float angle = 140.0;
     bool command_line = false;
 
-    std::string filename = "output.png";
+    std::string filename = "rock_output.png";
     objl::Loader Loader;
-    std::string obj_path = "../models/spot/";
+    std::string obj_path = "../models/rock/";
 
     // Load .obj File
-    bool loadout = Loader.LoadFile("../models/spot/spot_triangulated_good.obj");
+    bool loadout = Loader.LoadFile("../models/rock/rock.obj");
     for(auto mesh:Loader.LoadedMeshes)
     {
         for(int i=0;i<mesh.Vertices.size();i+=3)
@@ -371,7 +371,7 @@ int main(int argc, const char** argv)
 
     rst::rasterizer r(700, 700);
 
-    auto texture_path = "hmap.jpg";
+    auto texture_path = "rock.png";
     r.set_texture(Texture(obj_path + texture_path));
 
     std::function<Eigen::Vector3f(fragment_shader_payload)> active_shader = phong_fragment_shader;
@@ -387,7 +387,7 @@ int main(int argc, const char** argv)
         {
             std::cout << "Rasterizing using the texture shader\n";
             active_shader = texture_fragment_shader;
-            texture_path = "spot_texture_lowResolution.png";
+            texture_path = "rock.png";
             r.set_texture(Texture(obj_path + texture_path));
         }
         else if (argc == 3 && std::string(argv[2]) == "normal")

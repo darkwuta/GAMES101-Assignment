@@ -13,8 +13,8 @@ BVHAccel::BVHAccel(std::vector<Object*> p, int maxPrimsInNode,
     if (primitives.empty())
         return;
 
-    //root = recursiveBuild(primitives);
-    root = SAHrecursiveBuild(primitives);
+    root = recursiveBuild(primitives);
+    //root = SAHrecursiveBuild(primitives);
 
     time(&stop);
     double diff = difftime(stop, start);

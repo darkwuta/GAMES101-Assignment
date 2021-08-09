@@ -32,14 +32,6 @@ eigen3/Eigen/Eigen
 opencv2/opencv.hpp
 -
 
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework3/Assignment3/Triangle.cpp
-Triangle.hpp
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework3/Assignment3/Triangle.hpp
-algorithm
--
-array
--
-
 /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework3/Assignment3/Triangle.hpp
 eigen3/Eigen/Eigen
 -
@@ -67,16 +59,6 @@ Texture.hpp
 /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework3/Assignment3/Texture.hpp
 OBJ_Loader.h
 /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework3/Assignment3/OBJ_Loader.h
-
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework3/Assignment3/rasterizer.cpp
-algorithm
--
-rasterizer.hpp
-/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework3/Assignment3/rasterizer.hpp
-opencv2/opencv.hpp
--
-math.h
--
 
 /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/Homework3/Assignment3/rasterizer.hpp
 eigen3/Eigen/Eigen
