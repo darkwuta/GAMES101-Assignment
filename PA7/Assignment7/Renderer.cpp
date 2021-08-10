@@ -24,8 +24,57 @@ void Renderer::Render(const Scene& scene)
     int m = 0;
 
     // change the spp value to change sample ammount
-    int spp = 200; // TODO change sample ammount
+    int spp = 1; // TODO change sample ammount
     std::cout << "SPP: " << spp << "\n";
+
+//    int process = 0;
+//
+//    auto CastRayThread = [&](uint32_t xStart,uint32_t xEnd,uint32_t yStart, uint32_t yEnd)//匿名函数
+//    {
+//        for(uint32_t j = yStart; j<yEnd; j++)
+//        {
+//            for(uint32_t i =xStart; i<xEnd; i++)
+//            {
+//                float x = (2 * (i + 0.5) / (float)scene.width - 1) *
+//                          imageAspectRatio * scale;
+//                float y = (1 - 2 * (j + 0.5) / (float)scene.height) * scale;
+//
+//                Vector3f dir = normalize(Vector3f(-x, y, 1));
+//                for (int k = 0; k < spp; k++){
+//                    framebuffer[m] += scene.castRay(Ray(eye_pos, dir), 0) / spp;
+//                }
+//                m++;
+//                process++;
+//            }
+//            std::mutex mut;
+//            mut.lock();
+//            UpdateProgress(1.0*process/scene.width/scene.height);
+//            mut.unlock();
+//        }
+//    };
+//    int id =0;
+//
+//    int bx = 2;
+//    int by = 2;
+//    std::thread th[4];
+//
+//    int dx = (scene.width + 1) / bx;
+//    int dy = (scene.height + 1) / by;
+//
+//    for(int j=0;j<scene.height;j+=dy)
+//    {
+//        for(int i=0;i<scene.width;i+=dx)
+//        {
+//            th[id]=std::thread(CastRayThread,i,std::min(i+dx,scene.width),j,std::min(j+dy,scene.height));
+//            id++;
+//        }
+//    }
+//
+//    for (int i = 0; i < bx*by; i++) th[i].join();
+//    UpdateProgress(1.f);
+
+
+
     for (uint32_t j = 0; j < scene.height; ++j) {
         for (uint32_t i = 0; i < scene.width; ++i) {
             // generate primary ray direction
