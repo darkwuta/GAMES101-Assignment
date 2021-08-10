@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/darkmon/Codes/Games/原作业/assignment8/CGL/include -I/usr/local/include/freetype2
+CXX_INCLUDES = -I/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/include -I/usr/local/include/freetype2
 
 CXX_FLAGS =  -std=c++11 -m64 -O3 -funroll-loops -Wno-narrowing -Wno-deprecated-register -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wno-deprecated-declarations -Wno-c++11-extensions
 

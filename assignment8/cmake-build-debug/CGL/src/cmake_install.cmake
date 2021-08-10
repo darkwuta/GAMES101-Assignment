@@ -1,4 +1,4 @@
-# Install script for directory: /Users/darkmon/Codes/Games/原作业/assignment8/CGL/src
+# Install script for directory: /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/src/libCGL.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/src/libCGL.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libCGL.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libCGL.a")
     execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libCGL.a")
@@ -47,20 +47,20 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/CGL" TYPE FILE FILES
-    "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src/CGL.h"
-    "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src/vector2D.h"
-    "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src/vector3D.h"
-    "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src/vector4D.h"
-    "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src/matrix3x3.h"
-    "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src/matrix4x4.h"
-    "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src/quaternion.h"
-    "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src/complex.h"
-    "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src/color.h"
-    "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src/osdtext.h"
-    "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src/viewer.h"
-    "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src/base64.h"
-    "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src/tinyxml2.h"
-    "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src/renderer.h"
+    "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src/CGL.h"
+    "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src/vector2D.h"
+    "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src/vector3D.h"
+    "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src/vector4D.h"
+    "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src/matrix3x3.h"
+    "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src/matrix4x4.h"
+    "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src/quaternion.h"
+    "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src/complex.h"
+    "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src/color.h"
+    "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src/osdtext.h"
+    "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src/viewer.h"
+    "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src/base64.h"
+    "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src/tinyxml2.h"
+    "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src/renderer.h"
     )
 endif()
 

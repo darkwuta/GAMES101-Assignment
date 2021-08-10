@@ -62,10 +62,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkmon/Codes/Games/原作业/assignment8
+CMAKE_SOURCE_DIR = /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/ropesim.dir/depend.make
@@ -78,42 +78,42 @@ include src/CMakeFiles/ropesim.dir/flags.make
 
 src/CMakeFiles/ropesim.dir/rope.cpp.o: src/CMakeFiles/ropesim.dir/flags.make
 src/CMakeFiles/ropesim.dir/rope.cpp.o: ../src/rope.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/ropesim.dir/rope.cpp.o"
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ropesim.dir/rope.cpp.o -c /Users/darkmon/Codes/Games/原作业/assignment8/src/rope.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/ropesim.dir/rope.cpp.o"
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ropesim.dir/rope.cpp.o -c /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/src/rope.cpp
 
 src/CMakeFiles/ropesim.dir/rope.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ropesim.dir/rope.cpp.i"
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkmon/Codes/Games/原作业/assignment8/src/rope.cpp > CMakeFiles/ropesim.dir/rope.cpp.i
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/src/rope.cpp > CMakeFiles/ropesim.dir/rope.cpp.i
 
 src/CMakeFiles/ropesim.dir/rope.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ropesim.dir/rope.cpp.s"
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkmon/Codes/Games/原作业/assignment8/src/rope.cpp -o CMakeFiles/ropesim.dir/rope.cpp.s
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/src/rope.cpp -o CMakeFiles/ropesim.dir/rope.cpp.s
 
 src/CMakeFiles/ropesim.dir/application.cpp.o: src/CMakeFiles/ropesim.dir/flags.make
 src/CMakeFiles/ropesim.dir/application.cpp.o: ../src/application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/ropesim.dir/application.cpp.o"
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ropesim.dir/application.cpp.o -c /Users/darkmon/Codes/Games/原作业/assignment8/src/application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/ropesim.dir/application.cpp.o"
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ropesim.dir/application.cpp.o -c /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/src/application.cpp
 
 src/CMakeFiles/ropesim.dir/application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ropesim.dir/application.cpp.i"
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkmon/Codes/Games/原作业/assignment8/src/application.cpp > CMakeFiles/ropesim.dir/application.cpp.i
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/src/application.cpp > CMakeFiles/ropesim.dir/application.cpp.i
 
 src/CMakeFiles/ropesim.dir/application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ropesim.dir/application.cpp.s"
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkmon/Codes/Games/原作业/assignment8/src/application.cpp -o CMakeFiles/ropesim.dir/application.cpp.s
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/src/application.cpp -o CMakeFiles/ropesim.dir/application.cpp.s
 
 src/CMakeFiles/ropesim.dir/main.cpp.o: src/CMakeFiles/ropesim.dir/flags.make
 src/CMakeFiles/ropesim.dir/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/ropesim.dir/main.cpp.o"
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ropesim.dir/main.cpp.o -c /Users/darkmon/Codes/Games/原作业/assignment8/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/ropesim.dir/main.cpp.o"
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ropesim.dir/main.cpp.o -c /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/src/main.cpp
 
 src/CMakeFiles/ropesim.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ropesim.dir/main.cpp.i"
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkmon/Codes/Games/原作业/assignment8/src/main.cpp > CMakeFiles/ropesim.dir/main.cpp.i
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/src/main.cpp > CMakeFiles/ropesim.dir/main.cpp.i
 
 src/CMakeFiles/ropesim.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ropesim.dir/main.cpp.s"
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkmon/Codes/Games/原作业/assignment8/src/main.cpp -o CMakeFiles/ropesim.dir/main.cpp.s
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/src/main.cpp -o CMakeFiles/ropesim.dir/main.cpp.s
 
 # Object files for target ropesim
 ropesim_OBJECTS = \
@@ -134,8 +134,8 @@ ropesim: CGL/deps/glfw/src/libglfw3.a
 ropesim: /usr/local/lib/libfreetype.dylib
 ropesim: /usr/local/lib/libfreetype.dylib
 ropesim: src/CMakeFiles/ropesim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../ropesim"
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ropesim.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../ropesim"
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ropesim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/ropesim.dir/build: ropesim
@@ -143,10 +143,10 @@ src/CMakeFiles/ropesim.dir/build: ropesim
 .PHONY : src/CMakeFiles/ropesim.dir/build
 
 src/CMakeFiles/ropesim.dir/clean:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/src && $(CMAKE_COMMAND) -P CMakeFiles/ropesim.dir/cmake_clean.cmake
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/src && $(CMAKE_COMMAND) -P CMakeFiles/ropesim.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/ropesim.dir/clean
 
 src/CMakeFiles/ropesim.dir/depend:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkmon/Codes/Games/原作业/assignment8 /Users/darkmon/Codes/Games/原作业/assignment8/src /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/src /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/src/CMakeFiles/ropesim.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8 /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/src /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/src /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/src/CMakeFiles/ropesim.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/ropesim.dir/depend
 

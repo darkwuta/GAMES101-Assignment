@@ -67,10 +67,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkmon/Codes/Games/原作业/assignment8
+CMAKE_SOURCE_DIR = /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CMakeFiles /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/src//CMakeFiles/progress.marks
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CMakeFiles 0
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CMakeFiles /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/src//CMakeFiles/progress.marks
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/ropesim.dir/rule:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ropesim.dir/rule
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ropesim.dir/rule
 .PHONY : src/CMakeFiles/ropesim.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ ropesim: src/CMakeFiles/ropesim.dir/rule
 
 # fast build rule for target.
 ropesim/fast:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/build
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/build
 .PHONY : ropesim/fast
 
 application.o: application.cpp.o
@@ -196,7 +196,7 @@ application.o: application.cpp.o
 
 # target to build an object file
 application.cpp.o:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/application.cpp.o
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/application.cpp.o
 .PHONY : application.cpp.o
 
 application.i: application.cpp.i
@@ -205,7 +205,7 @@ application.i: application.cpp.i
 
 # target to preprocess a source file
 application.cpp.i:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/application.cpp.i
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/application.cpp.i
 .PHONY : application.cpp.i
 
 application.s: application.cpp.s
@@ -214,7 +214,7 @@ application.s: application.cpp.s
 
 # target to generate assembly for a file
 application.cpp.s:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/application.cpp.s
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/application.cpp.s
 .PHONY : application.cpp.s
 
 main.o: main.cpp.o
@@ -223,7 +223,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/main.cpp.o
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -232,7 +232,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/main.cpp.i
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -241,7 +241,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/main.cpp.s
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 rope.o: rope.cpp.o
@@ -250,7 +250,7 @@ rope.o: rope.cpp.o
 
 # target to build an object file
 rope.cpp.o:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/rope.cpp.o
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/rope.cpp.o
 .PHONY : rope.cpp.o
 
 rope.i: rope.cpp.i
@@ -259,7 +259,7 @@ rope.i: rope.cpp.i
 
 # target to preprocess a source file
 rope.cpp.i:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/rope.cpp.i
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/rope.cpp.i
 .PHONY : rope.cpp.i
 
 rope.s: rope.cpp.s
@@ -268,7 +268,7 @@ rope.s: rope.cpp.s
 
 # target to generate assembly for a file
 rope.cpp.s:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/rope.cpp.s
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ropesim.dir/build.make src/CMakeFiles/ropesim.dir/rope.cpp.s
 .PHONY : rope.cpp.s
 
 # Help Target
@@ -304,6 +304,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

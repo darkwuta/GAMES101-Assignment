@@ -4,7 +4,7 @@
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/darkmon/Codes/Games/原作业/assignment8/CGL/deps/glew/include
+C_INCLUDES = -I/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/deps/glew/include
 
 C_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -w
 

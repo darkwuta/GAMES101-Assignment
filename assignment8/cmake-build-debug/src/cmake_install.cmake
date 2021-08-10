@@ -1,4 +1,4 @@
-# Install script for directory: /Users/darkmon/Codes/Games/原作业/assignment8/src
+# Install script for directory: /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,18 +39,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/darkmon/Codes/Games/原作业/assignment8/ropesim")
+   "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/ropesim")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/darkmon/Codes/Games/原作业/assignment8" TYPE EXECUTABLE FILES "/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/ropesim")
-  if(EXISTS "$ENV{DESTDIR}/Users/darkmon/Codes/Games/原作业/assignment8/ropesim" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/Users/darkmon/Codes/Games/原作业/assignment8/ropesim")
+file(INSTALL DESTINATION "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8" TYPE EXECUTABLE FILES "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/ropesim")
+  if(EXISTS "$ENV{DESTDIR}/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/ropesim" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/ropesim")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -u -r "$ENV{DESTDIR}/Users/darkmon/Codes/Games/原作业/assignment8/ropesim")
+      execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -u -r "$ENV{DESTDIR}/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/ropesim")
     endif()
   endif()
 endif()

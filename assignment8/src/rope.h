@@ -4,6 +4,7 @@
 #include "CGL/CGL.h"
 #include "mass.h"
 #include "spring.h"
+#include "memory"
 
 using namespace std;
 

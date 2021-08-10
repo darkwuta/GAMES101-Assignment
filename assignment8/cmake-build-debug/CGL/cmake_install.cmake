@@ -1,8 +1,8 @@
-# Install script for directory: /Users/darkmon/Codes/Games/原作业/assignment8/CGL
+# Install script for directory: /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/darkmon/Codes/Games/原作业/assignment8/CGL")
+  set(CMAKE_INSTALL_PREFIX "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/deps/glew/cmake_install.cmake")
-  include("/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/deps/glfw/cmake_install.cmake")
-  include("/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/src/cmake_install.cmake")
+  include("/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/deps/glew/cmake_install.cmake")
+  include("/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/deps/glfw/cmake_install.cmake")
+  include("/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/src/cmake_install.cmake")
 
 endif()
 

@@ -62,10 +62,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkmon/Codes/Games/原作业/assignment8
+CMAKE_SOURCE_DIR = /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-
 include CGL/deps/glfw/CMakeFiles/uninstall.dir/progress.make
 
 CGL/deps/glfw/CMakeFiles/uninstall:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/deps/glfw && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/deps/glfw/cmake_uninstall.cmake
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/deps/glfw && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/deps/glfw/cmake_uninstall.cmake
 
 uninstall: CGL/deps/glfw/CMakeFiles/uninstall
 uninstall: CGL/deps/glfw/CMakeFiles/uninstall.dir/build.make
@@ -86,10 +86,10 @@ CGL/deps/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : CGL/deps/glfw/CMakeFiles/uninstall.dir/build
 
 CGL/deps/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/deps/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/deps/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : CGL/deps/glfw/CMakeFiles/uninstall.dir/clean
 
 CGL/deps/glfw/CMakeFiles/uninstall.dir/depend:
-	cd /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkmon/Codes/Games/原作业/assignment8 /Users/darkmon/Codes/Games/原作业/assignment8/CGL/deps/glfw /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/deps/glfw /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/deps/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8 /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/deps/glfw /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/deps/glfw /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/deps/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CGL/deps/glfw/CMakeFiles/uninstall.dir/depend
 

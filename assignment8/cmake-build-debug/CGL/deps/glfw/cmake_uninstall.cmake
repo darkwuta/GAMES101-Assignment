@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/deps/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/deps/glfw/install_manifest.txt\"")
+if (NOT EXISTS "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/deps/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/deps/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/deps/glfw/install_manifest.txt" files)
+file(READ "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/deps/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

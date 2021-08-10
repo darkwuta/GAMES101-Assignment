@@ -4,7 +4,7 @@
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/Users/darkmon/Codes/Games/原作业/assignment8/CGL/deps/glfw/src -I/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/deps/glfw/src
+C_INCLUDES = -I/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/deps/glfw/src -I/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/deps/glfw/src
 
 C_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIC   -Wall -w
 

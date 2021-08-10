@@ -5,13 +5,13 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/darkmon/Codes/Games/原作业/assignment8/CGL/include -I/Users/darkmon/Codes/Games/原作业/assignment8/CGL/deps/glew/include -I/usr/local/include/freetype2 -I/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src
+C_INCLUDES = -I/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/include -I/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/deps/glew/include -I/usr/local/include/freetype2 -I/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src
 
 C_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wno-constant-conversion
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/darkmon/Codes/Games/原作业/assignment8/CGL/include -I/Users/darkmon/Codes/Games/原作业/assignment8/CGL/deps/glew/include -I/usr/local/include/freetype2 -I/Users/darkmon/Codes/Games/原作业/assignment8/CGL/src
+CXX_INCLUDES = -I/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/include -I/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/deps/glew/include -I/usr/local/include/freetype2 -I/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/src
 
 CXX_FLAGS =  -std=c++11 -m64 -O3 -funroll-loops -Wno-narrowing -Wno-deprecated-register -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wno-constant-conversion
 

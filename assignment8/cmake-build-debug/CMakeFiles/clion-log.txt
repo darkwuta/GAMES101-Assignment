@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/darkmon/Codes/Games/原作业/assignment8
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8
 CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
   Compatibility with CMake < 2.8.12 will be removed from a future version of
   CMake.
@@ -73,4 +73,4 @@ CMake Deprecation Warning at src/CMakeLists.txt:1 (cmake_minimum_required):
 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug
+-- Build files have been written to: /Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/deps/glew/src/glew.c" "/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/deps/glew/CMakeFiles/glew.dir/src/glew.c.o"
-  "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/deps/glew/src/glewinfo.c" "/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.o"
-  "/Users/darkmon/Codes/Games/原作业/assignment8/CGL/deps/glew/src/visualinfo.c" "/Users/darkmon/Codes/Games/原作业/assignment8/cmake-build-debug/CGL/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.o"
+  "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/deps/glew/src/glew.c" "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/deps/glew/CMakeFiles/glew.dir/src/glew.c.o"
+  "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/deps/glew/src/glewinfo.c" "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.o"
+  "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/CGL/deps/glew/src/visualinfo.c" "/Users/darkmon/Codes/Github/MyProjects/GAMES101-Assignment/assignment8/cmake-build-debug/CGL/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
