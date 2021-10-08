@@ -1,0 +1,37 @@
+# Target labels
+ Main
+ opencv_highgui
+ Module
+# Source files and their labels
+D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/highgui/include/opencv2/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/highgui/include/opencv2/highgui/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/highgui/include/opencv2/highgui/highgui_c.h
+ Main
+ opencv_highgui
+ Module
+D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/highgui/src/window.cpp
+ Main
+ opencv_highgui
+ Module
+D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/highgui/src/roiSelector.cpp
+ Main
+ opencv_highgui
+ Module
+D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/highgui/src/window_w32.cpp
+ Main
+ opencv_highgui
+ Module
+D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/highgui/src/precomp.hpp
+ Main
+ opencv_highgui
+ Module
+D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/cvconfig.h
+D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/opencv2/opencv_modules.hpp
+D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/dependence/opencv-4.5.1/modules/highgui/vs_version.rc
+D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/dependence/opencv-4.5.1/modules/highgui/opencv_highgui_main.cpp

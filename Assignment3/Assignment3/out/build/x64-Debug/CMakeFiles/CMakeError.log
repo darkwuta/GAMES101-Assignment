@@ -1,0 +1,219 @@
+Determining if the function fseeko exists failed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_888c0 && [1/2] Building C object CMakeFiles\cmTC_888c0.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_888c0.exe
+FAILED: cmTC_888c0.exe 
+cmd.exe /C "cd . && E:\my_tool\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_888c0.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- E:\my_tool\vstudio\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_888c0.dir\CheckFunctionExists.c.obj  /out:cmTC_888c0.exe /implib:cmTC_888c0.lib /pdb:cmTC_888c0.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "E:\my_tool\vstudio\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_888c0.dir\CheckFunctionExists.c.obj /out:cmTC_888c0.exe /implib:cmTC_888c0.lib /pdb:cmTC_888c0.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_888c0.dir/intermediate.manifest CMakeFiles\cmTC_888c0.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 fseeko，函数 main 中引用了该符号
+cmTC_888c0.exe : fatal error LNK1120: 1 个无法解析的外部命令
+ninja: build stopped: subcommand failed.
+
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_e57cf && [1/2] Building C object CMakeFiles\cmTC_e57cf.dir\OFF64_T.c.obj
+FAILED: CMakeFiles/cmTC_e57cf.dir/OFF64_T.c.obj 
+E:\my_tool\vstudio\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS      /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_e57cf.dir\OFF64_T.c.obj /FdCMakeFiles\cmTC_e57cf.dir\ /FS -c D:\github\myProjects\GAMES101-Assignment\Homework3\Assignment3\out\build\x64-Debug\CMakeFiles\CheckTypeSize\OFF64_T.c
+D:\github\myProjects\GAMES101-Assignment\Homework3\Assignment3\out\build\x64-Debug\CMakeFiles\CheckTypeSize\OFF64_T.c(29): error C2065: “off64_t”: 未声明的标识符
+D:\github\myProjects\GAMES101-Assignment\Homework3\Assignment3\out\build\x64-Debug\CMakeFiles\CheckTypeSize\OFF64_T.c(30): error C2065: “off64_t”: 未声明的标识符
+D:\github\myProjects\GAMES101-Assignment\Homework3\Assignment3\out\build\x64-Debug\CMakeFiles\CheckTypeSize\OFF64_T.c(31): error C2065: “off64_t”: 未声明的标识符
+D:\github\myProjects\GAMES101-Assignment\Homework3\Assignment3\out\build\x64-Debug\CMakeFiles\CheckTypeSize\OFF64_T.c(32): error C2065: “off64_t”: 未声明的标识符
+D:\github\myProjects\GAMES101-Assignment\Homework3\Assignment3\out\build\x64-Debug\CMakeFiles\CheckTypeSize\OFF64_T.c(33): error C2065: “off64_t”: 未声明的标识符
+ninja: build stopped: subcommand failed.
+
+
+D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function memmove exists failed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_dfbac && [1/2] Building C object CMakeFiles\cmTC_dfbac.dir\CheckFunctionExists.c.obj
+FAILED: CMakeFiles/cmTC_dfbac.dir/CheckFunctionExists.c.obj 
+E:\my_tool\vstudio\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     -DCHECK_FUNCTION_EXISTS=memmove /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_dfbac.dir\CheckFunctionExists.c.obj /FdCMakeFiles\cmTC_dfbac.dir\ /FS -c E:\my_tool\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckFunctionExists.c
+E:\my_tool\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckFunctionExists.c(7): warning C4391: “char memmove(void)”: 不正确的内部函数返回类型，应为“void”
+E:\my_tool\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckFunctionExists.c(7): warning C4392: “char memmove(void)”: 不正确的内部函数参数个数，应为“3”个参数
+E:\my_tool\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckFunctionExists.c(17): error C2168: “memmove”: 内部函数的实参太少
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function strcasecmp exists failed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_d10c7 && [1/2] Building C object CMakeFiles\cmTC_d10c7.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_d10c7.exe
+FAILED: cmTC_d10c7.exe 
+cmd.exe /C "cd . && E:\my_tool\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_d10c7.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- E:\my_tool\vstudio\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_d10c7.dir\CheckFunctionExists.c.obj  /out:cmTC_d10c7.exe /implib:cmTC_d10c7.lib /pdb:cmTC_d10c7.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "E:\my_tool\vstudio\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_d10c7.dir\CheckFunctionExists.c.obj /out:cmTC_d10c7.exe /implib:cmTC_d10c7.lib /pdb:cmTC_d10c7.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_d10c7.dir/intermediate.manifest CMakeFiles\cmTC_d10c7.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 strcasecmp，函数 main 中引用了该符号
+cmTC_d10c7.exe : fatal error LNK1120: 1 个无法解析的外部命令
+ninja: build stopped: subcommand failed.
+
+
+
+Build output check failed:
+    Regex: 'warning D9002'
+    Output line: 'cl: 命令行 warning D9002 :忽略未知选项“-std=c99”'
+Compilation failed:
+    source file: 'D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp/src.c'
+    check option: ' /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     -std=c99'
+===== BUILD LOG =====
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_d4c9f && [1/2] Building C object CMakeFiles\cmTC_d4c9f.dir\src.c.obj
+cl: 命令行 warning D9002 :忽略未知选项“-std=c99”
+[2/2] Linking C executable cmTC_d4c9f.exe
+
+
+===== END =====
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_6adae && [1/2] Building C object CMakeFiles\cmTC_6adae.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_6adae.dir/CheckIncludeFile.c.obj 
+E:\my_tool\vstudio\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS      /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_6adae.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_6adae.dir\ /FS -c CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_092f0 && [1/2] Building C object CMakeFiles\cmTC_092f0.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_092f0.dir/CheckIncludeFile.c.obj 
+E:\my_tool\vstudio\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS      /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_092f0.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_092f0.dir\ /FS -c CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the posix_memalign exist failed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_18834 && [1/2] Building C object CMakeFiles\cmTC_18834.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_18834.dir/CheckSymbolExists.c.obj 
+E:\my_tool\vstudio\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe  /nologo -D_POSIX_C_SOURCE=200112L  /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS      /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_18834.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_18834.dir\ /FS -c CheckSymbolExists.c
+CheckSymbolExists.c(8): error C2065: “posix_memalign”: 未声明的标识符
+ninja: build stopped: subcommand failed.
+
+
+File D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memalign exist failed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_b4d0d && [1/2] Building C object CMakeFiles\cmTC_b4d0d.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_b4d0d.dir/CheckSymbolExists.c.obj 
+E:\my_tool\vstudio\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS      /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_b4d0d.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_b4d0d.dir\ /FS -c CheckSymbolExists.c
+CheckSymbolExists.c(8): error C2065: “memalign”: 未声明的标识符
+ninja: build stopped: subcommand failed.
+
+
+File D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_0bd5a && [1/2] Building C object CMakeFiles\cmTC_0bd5a.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_0bd5a.dir/CheckIncludeFile.c.obj 
+E:\my_tool\vstudio\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS      /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_0bd5a.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_0bd5a.dir\ /FS -c CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_1cde9 && [1/2] Building C object CMakeFiles\cmTC_1cde9.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_1cde9.exe
+FAILED: cmTC_1cde9.exe 
+cmd.exe /C "cd . && E:\my_tool\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_1cde9.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- E:\my_tool\vstudio\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_1cde9.dir\CheckFunctionExists.c.obj  /out:cmTC_1cde9.exe /implib:cmTC_1cde9.lib /pdb:cmTC_1cde9.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "E:\my_tool\vstudio\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_1cde9.dir\CheckFunctionExists.c.obj /out:cmTC_1cde9.exe /implib:cmTC_1cde9.lib /pdb:cmTC_1cde9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_1cde9.dir/intermediate.manifest CMakeFiles\cmTC_1cde9.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 sgemm_，函数 main 中引用了该符号
+cmTC_1cde9.exe : fatal error LNK1120: 1 个无法解析的外部命令
+ninja: build stopped: subcommand failed.
+
+
+

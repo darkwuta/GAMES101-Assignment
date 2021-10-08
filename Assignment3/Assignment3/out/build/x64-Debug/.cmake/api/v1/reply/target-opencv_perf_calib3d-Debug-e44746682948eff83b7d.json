@@ -1,0 +1,634 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/opencv_perf_calib3dd.exe"
+		},
+		{
+			"path" : "bin/opencv_perf_calib3dd.pdb"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"ocv_add_executable",
+			"ocv_add_perf_tests",
+			"ocv_define_module",
+			"target_link_libraries",
+			"__ocv_push_target_link_libraries",
+			"ocv_target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"ocv_add_module",
+			"include",
+			"include_directories",
+			"ocv_include_directories",
+			"target_include_directories",
+			"ocv_target_include_directories",
+			"ocv_target_include_modules"
+		],
+		"files" : 
+		[
+			"dependence/opencv-4.5.1/cmake/OpenCVUtils.cmake",
+			"dependence/opencv-4.5.1/cmake/OpenCVModule.cmake",
+			"dependence/opencv-4.5.1/modules/calib3d/CMakeLists.txt",
+			"dependence/opencv-4.5.1/cmake/OpenCVCompilerOptions.cmake",
+			"dependence/opencv-4.5.1/CMakeLists.txt",
+			"dependence/opencv-4.5.1/modules/CMakeLists.txt",
+			"dependence/opencv-4.5.1/cmake/OpenCVFindLibsPerf.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1076,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1528,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 1176,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1488,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1458,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 1180,
+				"parent" : 2
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 1070,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 9
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 614,
+				"parent" : 11
+			},
+			{
+				"file" : 3,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 405,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 417,
+				"parent" : 13
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 700,
+				"parent" : 11
+			},
+			{
+				"file" : 6,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 6,
+				"line" : 19,
+				"parent" : 19
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 315,
+				"parent" : 20
+			},
+			{
+				"command" : 12,
+				"file" : 6,
+				"line" : 16,
+				"parent" : 19
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 315,
+				"parent" : 22
+			},
+			{
+				"command" : 15,
+				"file" : 1,
+				"line" : 1175,
+				"parent" : 2
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 24
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 25
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 24
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 27
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 24
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 29
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 24
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 31
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 24
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 33
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 24
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 35
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 24
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 37
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 24
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 39
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 24
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 41
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 579,
+				"parent" : 11
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 43
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589  /MDd /Zi /Ob0 /Od /RTC1 "
+				},
+				{
+					"fragment" : "-std:c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 21,
+					"path" : "D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/dependence/opencv-4.5.1/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/dependence/opencv-4.5.1/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/ts/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/calib3d/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/imgcodecs/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/core/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/flann/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/features2d/include"
+				},
+				{
+					"backtrace" : 40,
+					"path" : "D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/videoio/include"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/dependence/opencv-4.5.1/modules/highgui/include"
+				},
+				{
+					"backtrace" : 44,
+					"isSystem" : true,
+					"path" : "D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "E:/environment/eigen-3.4-rc1/eigen-3.4-rc1"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "ippiw::@f2b9c3c50c4728baef49"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "opencv_videoio_plugins::@e415d3540aa07deaf021"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_imgproc::@f080edfdd23b2d166747"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_flann::@e9a4c106c66e3536d43e"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_core::@c0e56f25a21dff798291"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_features2d::@b76b7f5a2de25fdded6d"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_imgcodecs::@ec409f3343d78d3756fb"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_videoio::@dcc7d57c88215d3a2f6e"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_calib3d::@093f762bac58dc5ef423"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_highgui::@b58a3f166a09a2abfeef"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_ts::@eebd3cf8c80e4b010646"
+		}
+	],
+	"id" : "opencv_perf_calib3d::@093f762bac58dc5ef423",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589  /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64  /debug /INCREMENTAL  /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\opencv_ts451d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\opencv_calib3d451d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\opencv_highgui451d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\opencv_features2d451d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\3rdparty\\lib\\ippiwd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\3rdparty\\ippicv\\ippicv_win\\icv\\lib\\intel64\\ippicvmt.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\opencv_videoio451d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\opencv_imgcodecs451d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\opencv_flann451d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\opencv_imgproc451d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\opencv_core451d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "opencv_perf_calib3d",
+	"nameOnDisk" : "opencv_perf_calib3dd.exe",
+	"paths" : 
+	{
+		"build" : "dependence/opencv-4.5.1/modules/calib3d",
+		"source" : "dependence/opencv-4.5.1/modules/calib3d"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Src\\opencl",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Src",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		},
+		{
+			"name" : "Include",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependence/opencv-4.5.1/modules/calib3d/perf/opencl/perf_stereobm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependence/opencv-4.5.1/modules/calib3d/perf/perf_affine2d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependence/opencv-4.5.1/modules/calib3d/perf/perf_cicrlesGrid.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependence/opencv-4.5.1/modules/calib3d/perf/perf_main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependence/opencv-4.5.1/modules/calib3d/perf/perf_pnp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependence/opencv-4.5.1/modules/calib3d/perf/perf_stereosgbm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependence/opencv-4.5.1/modules/calib3d/perf/perf_undistort.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "dependence/opencv-4.5.1/modules/calib3d/perf/perf_precomp.hpp",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,581 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: E:/my_tool/vstudio/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29913 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.28.29913.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/3.19.20122902-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: E:/my_tool/vstudio/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29913 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.28.29913.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/3.19.20122902-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_eb4e8 && [1/2] Building C object CMakeFiles\cmTC_eb4e8.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_eb4e8.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_7f9ab && [1/2] Building CXX object CMakeFiles\cmTC_7f9ab.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_7f9ab.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_e0e14 && [1/2] Building C object CMakeFiles\cmTC_e0e14.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_e0e14.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_e52f0 && [1/2] Building C object CMakeFiles\cmTC_e52f0.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_e52f0.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_dfac6 && [1/2] Building C object CMakeFiles\cmTC_dfac6.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_dfac6.exe
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_255ba && [1/2] Building C object CMakeFiles\cmTC_255ba.dir\CMAKE_SIZEOF_UNSIGNED_SHORT.c.obj
+[2/2] Linking C executable cmTC_255ba.exe
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_254b5 && [1/2] Building C object CMakeFiles\cmTC_254b5.dir\TestEndianess.c.obj
+[2/2] Linking C executable cmTC_254b5.exe
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of size_t passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_a0ab2 && [1/2] Building C object CMakeFiles\cmTC_a0ab2.dir\SIZEOF_SIZE_T.c.obj
+[2/2] Linking C executable cmTC_a0ab2.exe
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_e5c6d && [1/2] Building C object CMakeFiles\cmTC_e5c6d.dir\SIZEOF_UNSIGNED_LONG.c.obj
+[2/2] Linking C executable cmTC_e5c6d.exe
+
+
+
+Determining if files intrin.h exist passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_e8a7d && [1/2] Building C object CMakeFiles\cmTC_e8a7d.dir\HAVE_INTRIN_H.c.obj
+[2/2] Linking C executable cmTC_e8a7d.exe
+
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_2366b && [1/2] Building C object CMakeFiles\cmTC_2366b.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_2366b.exe
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_bb33e && [1/2] Building C object CMakeFiles\cmTC_bb33e.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_bb33e.exe
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_05d48 && [1/2] Building C object CMakeFiles\cmTC_05d48.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_05d48.exe
+
+
+
+Determining if the include file io.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_98d39 && [1/2] Building C object CMakeFiles\cmTC_98d39.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_98d39.exe
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_2f6d7 && [1/2] Building C object CMakeFiles\cmTC_2f6d7.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_2f6d7.exe
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_e847e && [1/2] Building C object CMakeFiles\cmTC_e847e.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_e847e.exe
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_20f7a && [1/2] Building C object CMakeFiles\cmTC_20f7a.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_20f7a.exe
+
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_b018d && [1/2] Building C object CMakeFiles\cmTC_b018d.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_b018d.exe
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_6ce3b && [1/2] Building C object CMakeFiles\cmTC_6ce3b.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_6ce3b.exe
+
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeeded with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_d67fd && [1/2] Building C object CMakeFiles\cmTC_d67fd.dir\src.c.obj
+[2/2] Linking C executable cmTC_d67fd.exe
+
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+Determining size of signed short passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_6b918 && [1/2] Building C object CMakeFiles\cmTC_6b918.dir\SIZEOF_SIGNED_SHORT.c.obj
+[2/2] Linking C executable cmTC_6b918.exe
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_dce4f && [1/2] Building C object CMakeFiles\cmTC_dce4f.dir\SIZEOF_UNSIGNED_SHORT.c.obj
+[2/2] Linking C executable cmTC_dce4f.exe
+
+
+
+Determining size of signed int passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_bce08 && [1/2] Building C object CMakeFiles\cmTC_bce08.dir\SIZEOF_SIGNED_INT.c.obj
+[2/2] Linking C executable cmTC_bce08.exe
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_c05a6 && [1/2] Building C object CMakeFiles\cmTC_c05a6.dir\SIZEOF_UNSIGNED_INT.c.obj
+[2/2] Linking C executable cmTC_c05a6.exe
+
+
+
+Determining size of signed long passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_d2588 && [1/2] Building C object CMakeFiles\cmTC_d2588.dir\SIZEOF_SIGNED_LONG.c.obj
+[2/2] Linking C executable cmTC_d2588.exe
+
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_f5b17 && [1/2] Building C object CMakeFiles\cmTC_f5b17.dir\SIZEOF_SIGNED_LONG_LONG.c.obj
+[2/2] Linking C executable cmTC_f5b17.exe
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_7e8d7 && [1/2] Building C object CMakeFiles\cmTC_7e8d7.dir\SIZEOF_UNSIGNED_LONG_LONG.c.obj
+[2/2] Linking C executable cmTC_7e8d7.exe
+
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_e691c && [1/2] Building C object CMakeFiles\cmTC_e691c.dir\SIZEOF_UNSIGNED_CHAR_P.c.obj
+[2/2] Linking C executable cmTC_e691c.exe
+
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_3190c && [1/2] Building C object CMakeFiles\cmTC_3190c.dir\SIZEOF_PTRDIFF_T.c.obj
+[2/2] Linking C executable cmTC_3190c.exe
+
+
+
+Determining if the function setmode exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_71d1d && [1/2] Building C object CMakeFiles\cmTC_71d1d.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_71d1d.exe
+
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_52478 && [1/2] Building C object CMakeFiles\cmTC_52478.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_52478.exe
+
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_3ca7d && [1/2] Building C object CMakeFiles\cmTC_3ca7d.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_3ca7d.exe
+
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_d66fc && [1/2] Building C object CMakeFiles\cmTC_d66fc.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_d66fc.exe
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_13346 && [1/2] Building C object CMakeFiles\cmTC_13346.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_13346.exe
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_13ffe && [1/2] Building C object CMakeFiles\cmTC_13ffe.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_13ffe.exe
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_48ebc && [1/2] Building C object CMakeFiles\cmTC_48ebc.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_48ebc.exe
+
+
+
+Determining if the function lfind exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_a5566 && [1/2] Building C object CMakeFiles\cmTC_a5566.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_a5566.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_SNPRINTF succeeded with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_97079 && [1/2] Building C object CMakeFiles\cmTC_97079.dir\src.c.obj
+[2/2] Linking C executable cmTC_97079.exe
+
+
+Source file was:
+
+#include <stdio.h>
+int main(void) {
+  char buf[10];
+  snprintf(buf, 10, "Test %d", 1);
+  return 0;
+}
+Determining if the system is big endian passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_0e853 && [1/2] Building C object CMakeFiles\cmTC_0e853.dir\TestEndianess.c.obj
+[2/2] Linking C executable cmTC_0e853.exe
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_f2131 && [1/2] Building C object CMakeFiles\cmTC_f2131.dir\TestEndianess.c.obj
+[2/2] Linking C executable cmTC_f2131.exe
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_d0bc3 && [1/2] Building C object CMakeFiles\cmTC_d0bc3.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_d0bc3.exe
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_9b17b && [1/2] Building C object CMakeFiles\cmTC_9b17b.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_9b17b.exe
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_ba54b && [1/2] Building C object CMakeFiles\cmTC_ba54b.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_ba54b.exe
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_856f2 && [1/2] Building C object CMakeFiles\cmTC_856f2.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_856f2.exe
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_0f53c && [1/2] Building C object CMakeFiles\cmTC_0f53c.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_0f53c.exe
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_440d9 && [1/2] Building C object CMakeFiles\cmTC_440d9.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_440d9.exe
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_1fc8d && [1/2] Building C object CMakeFiles\cmTC_1fc8d.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_1fc8d.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_3a756 && [1/2] Building C object CMakeFiles\cmTC_3a756.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_3a756.exe
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_831f4 && [1/2] Building C object CMakeFiles\cmTC_831f4.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_831f4.exe
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_45974 && [1/2] Building C object CMakeFiles\cmTC_45974.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_45974.exe
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_c2134 && [1/2] Building C object CMakeFiles\cmTC_c2134.dir\OPJ_HAVE_MALLOC_H.c.obj
+[2/2] Linking C executable cmTC_c2134.exe
+
+
+
+Determining if the _aligned_malloc exist passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_dc8d5 && [1/2] Building C object CMakeFiles\cmTC_dc8d5.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_dc8d5.exe
+
+
+File D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file mfapi.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_f8b63 && [1/2] Building C object CMakeFiles\cmTC_f8b63.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_f8b63.exe
+
+
+
+Determining if the include file d3d11_4.h exists passed with the following output:
+Change Dir: D:/github/myProjects/GAMES101-Assignment/Homework3/Assignment3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\MY_TOOL\VSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_9cb0f && [1/2] Building C object CMakeFiles\cmTC_9cb0f.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_9cb0f.exe
+
+
+

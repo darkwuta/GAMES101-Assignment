@@ -1,0 +1,35 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"dependence/opencv-4.5.1/modules/videoio/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "opencv_videoio_plugins::@e415d3540aa07deaf021",
+	"name" : "opencv_videoio_plugins",
+	"paths" : 
+	{
+		"build" : "dependence/opencv-4.5.1/modules/.firstpass/videoio",
+		"source" : "dependence/opencv-4.5.1/modules/videoio"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
